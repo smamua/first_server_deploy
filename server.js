@@ -40,7 +40,7 @@ server.get("/greeting", function (req, res) {
     var response = {
       msg: " Welcome"
     }
-  }else{
+  }else{git push -u origin master
     var response = {
       msg: " Welcome " + data.user.name
     }
